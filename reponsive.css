@@ -1,0 +1,64 @@
+@media  (max-width: 1024px) {
+    .resImg{
+        display: block;
+    }
+     .navbar-btn{
+        display: none;
+     }
+     .navbar-center ul li{
+       
+     display: none;
+    
+    }
+    /* making section 2 responsive for medium devices */
+    .left-section2{
+     
+        padding-left: 1%;
+        padding-right: 1%;
+       
+    }
+    .leftsec-qualities{
+        flex-direction: column;
+       line-height: 1;
+    }
+    .setion2-heading{
+        font-size: 1.1rem;
+       
+    }
+   
+  }
+
+  @media(max-width: 768px)
+  {
+    .both-sections2{
+       flex-direction: column-reverse;
+       position: relative;
+     
+      }
+      .left-section2{
+        width: 100%;
+        padding-left: 5%;
+      
+    }
+    
+    .rightSec-bgImg{
+        width: 100%;
+        height: 300px;
+       
+       
+    }
+
+    .setion2-heading{
+        position: absolute;
+        top: 10%;
+        color: rgb(225, 222, 222);
+    }
+
+    .leftsec-btn button{
+       padding: 20px 50px;
+        background-color: transparent;
+        margin-top: 4%;
+        
+    }
+    
+  }

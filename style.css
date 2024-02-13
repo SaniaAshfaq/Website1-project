@@ -1,0 +1,213 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+ 
+}
+
+.logo-container{
+    width:100%;
+}
+.logo-img{
+    width:100%;
+    height: 100vh;
+    background-image: url(./Images/logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+} 
+/* this is sectio one */
+.section-1{
+    background-image: url(./Images/section-1bg.jpg);
+    height:100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.sec1-MainHeadig{
+    color: white;
+    margin-left: 5%;
+    padding-top: 15%;
+}
+.sec1-MainHeadig p{
+    font-size: 1.3rem;
+}
+.sec1-MainHeadig  div h1{
+    font-size: 3rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+    width: 100%;
+    position: fixed;
+   
+   
+}
+/* compnay name plan b */
+ 
+.company-name
+{
+    color: rgb(198, 198, 198);
+    border: 2px solid rgb(198, 198, 198);
+    margin-left: 10px;
+    padding-left: 10px;
+    padding : 5px 10px;
+   
+}
+/* this is the center part of the navbar */
+
+.navbar-center ul li{
+ list-style: none;
+ float: left;
+ margin-left: 20px;
+}
+.navbar-center ul li a{
+    color: rgb(198, 198, 198);
+    text-decoration: none;
+    transition: transform 1s ease;
+
+}
+.navbar-center ul li:hover{
+  
+    transform: scale(1.1);
+
+
+}
+.navbar-center ul li a:hover{
+    color:  black;
+  
+
+}
+
+
+
+  /* This is the btn of the navbar */
+.navbar-btn{
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    margin-right:12px;
+    transition: background-color, transform 1s ease;
+}
+.navbar-btn:hover{
+    background-color: rgba(170, 252, 252, 0.8);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/* responsive image svg */
+.resImg{
+    width: 40px;
+    height: 40px;
+    display: none;
+  
+}
+/* Responsive navbar */
+.responsive-nav{
+    width: 80%;
+    height: 80vh;
+   background-color:   rgb(137, 247, 251);
+    position: absolute;
+    top: 0;
+    left: -80%;
+    transition: left 0.5s ease;
+    text-align: center;
+   
+     
+}
+
+.responsive-nav ul li{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+    margin: 20px;
+   
+
+}
+
+.responsive-nav ul li a{
+  text-decoration: none;
+   color: rgb(92, 91, 91);
+   font-weight: bold;
+   font-size: 20px;
+    
+}
+.responsive-nav ul{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.res-info p{
+    font-size: 12px;
+}
+.cross-popup
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+   right: 10px;
+   
+
+}
+
+  
+ 
+  /* //second section of the website */
+  
+  .both-sections2{
+    display: flex;
+    padding-top: 6%;
+    padding-bottom: 7%;
+  }
+.left-section2{
+    width: 40%;
+    background-color:antiquewhite;
+    padding-left: 4%;
+    padding-right: 2%;
+    color: rgb(121, 120, 120);
+    padding-bottom: 10%;
+}
+.setion2-heading{
+    font-size: 1.3rem;
+    line-height: 0.8;
+}
+.rightSec-bgImg{
+    width: 60%;
+   
+    background-image: url('./Images/section-2bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leftsec-qualities{
+    display: flex;
+    justify-content: space-between;
+}
+.leftsec-btn button{
+    border: 2px solid rgb(151, 149, 149);
+    padding: 20px 30px;
+    background-color: transparent;
+    margin-top: 8%;
+    color: rgb(151, 149, 149);
+}
+.leftsec-btn button:hover{
+    background-color: green;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+    border: 2px solid white;
+}
+
+.leftsec-para{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 20px;
+}
+
+
