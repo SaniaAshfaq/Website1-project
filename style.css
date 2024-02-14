@@ -24,17 +24,19 @@ body {
 /* this is sectio one */
 .section-1{
     background-image: url(./Images/section-1bg.jpg);
-    height:100vh;
+    height:130vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 80% 50%;
     
 }
 .sec1-MainHeadig{
     color: white;
     margin-left: 5%;
-    padding-top: 15%;
+    padding-top: 20%;
+    /* border: 2px solid red; */
+   
 }
 .sec1-MainHeadig p{
     font-size: 1.3rem;
@@ -44,24 +46,31 @@ body {
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-bottom: 2px solid white;
     width: 100%;
     position: fixed;
-   
+  
    
 }
 /* compnay name plan b */
  
 .company-name
 {
-    color: rgb(198, 198, 198);
-    border: 2px solid rgb(198, 198, 198);
+    color: rgb(110, 110, 110);
+    border: 2px solid rgb(110, 110, 110);
     margin-left: 10px;
     padding-left: 10px;
     padding : 5px 10px;
    
+}
+.company-name:hover{
+    cursor: pointer;
+ background-color: white;
+  color: black;
+  font-weight: bolder;
+    border: 2px solid black;
 }
 /* this is the center part of the navbar */
 
@@ -71,7 +80,7 @@ body {
  margin-left: 20px;
 }
 .navbar-center ul li a{
-    color: rgb(198, 198, 198);
+    color: rgb(171, 169, 169);
     text-decoration: none;
     transition: transform 1s ease;
 
@@ -79,8 +88,6 @@ body {
 .navbar-center ul li:hover{
   
     transform: scale(1.1);
-
-
 }
 .navbar-center ul li a:hover{
     color:  black;
@@ -98,15 +105,16 @@ body {
     transition: background-color, transform 1s ease;
 }
 .navbar-btn:hover{
-    background-color: rgba(170, 252, 252, 0.8);
-    cursor: pointer;
+    background-color: antiquewhite;
     transform: scale(1.1);
+    cursor: pointer;
 }
 /* responsive image svg */
 .resImg{
     width: 40px;
     height: 40px;
     display: none;
+   
   
 }
 /* Responsive navbar */
@@ -209,5 +217,186 @@ body {
   padding-bottom: 3%;
   font-size: 20px;
 }
+/* section two third part
+ */
+ .thirdPart-section2{
+    margin-top: 0%;
+    margin-bottom: 1%;
+   
+ }
+ .tp-s2-heading{
 
+    font-size: 2.9rem;
+    border: 8px solid black;
+    width: 45%;
+    text-align: center;
+ }
+ .tp-s2-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+ }
+ .tp-s2-para{
+    background-color: antiquewhite;
+ }
+ .tp-s2-para div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2% 0;
+  
+ }
+ .tp-s2-para div p{
+    width: 50%;
+    font-size: 16px;
+   
+    font-size: 16px;
+    text-align: justify;
+ }
+
+/* section 3 will goes here */
+.section-3{
+   
+    width: 100%;
+ 
+    padding-top: 6%;
+    
+    
+}
+.section-3-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(187, 255, 232);
+}
+.section-3-head{
+    width: 100%;
+    font-size: 2.5rem;
+   border: 8px solid black;
+}
+.section3-para-div{
+    width: 100%;
+    /* background-color: rgb(154, 252, 219); */
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    margin-bottom: 5%;
+   
+
+}
+.section-3para{
+    
+    width: 55%;
+    font-size: 16px;
+    font-size: 16px;
+    text-align: justify;
+   
+    margin: 10px 0px;
+
+}
+
+.section3-btn{
+     margin-top: 20px;
+    background-color: transparent;
+    padding: 12px 6px
+}
+
+/* //code for setion no 4 */
+.section-4{
+    /* padding-bottom: 10%; */
+    margin-top: 5%;
+    padding-top: 5%;
+}
+.section-4-div{
+    display: flex;
+    width: 100%;
+  justify-content: space-between;
+   
+
+}
+.section-4-left{
+    width: 35%;
+    background-color: rgb(187, 255, 232);
+    padding-left: 3%;
+    padding-bottom: 5%;
+}
+.section-4-head{
+    font-size: 2.5rem;
+}
+.section-4-para{
+    width: 80%;
+   
+}
+.section-4-img-div{
+    width: 50%;
+   
+   
+}
+.image-sec4{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Images/Section\ 4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+/* section 5 code */
+
+.sec-5-div{
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.sec-5-img-div{
+   width: 60%;
+    
+}
+.sec5-right-div{
+    width: 40%;
+    background-color:rgb(187, 255, 232); 
+    padding: 2%;
+}
+.sec-5-img{
+    height: 100%;
+    width: 100%;
+    background-image: url('./Images/Section\ 5.1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-5-headings{
+    font-size: 1.2rem;
+   
+}
+.sec-5-headings h1{
+   line-height: 0.4;
+}
+.sec-5-head3-div{
+    display: flex;
+    align-items: center;
+   
+}
+.sec-5-head3-img{
+    width: 60px;
+    height: 60px;
+}
+
+.sec-5-paras{
+    padding-top: 5%;
+
+}
+.sec-5-paras p{
+    padding-top: 3%;
+}
 

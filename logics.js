@@ -1,6 +1,6 @@
 //code for moving directly to the second secotion of the page
 
-let id = document.querySelector("#section-1");
+let id = document.querySelector(".section-1");
 let logoImg = document.querySelector(".logo-img");
 document.addEventListener('DOMContentLoaded',function(){
     setTimeout(function() {
